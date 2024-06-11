@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+
+  toy_docker_db_maria:
+    image: toy_docker_db_maria
+    container_name: toy_docker_db_maria
+    restart: always
+    ports:
+      - 3306:3306
