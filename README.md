@@ -23,7 +23,8 @@ cd toy_docker_db_maria
 
 ### Config
 - Mariadb root password: Dockerfile
-- Timezone: Dockerfile
+- Timezone: Dockerfile, Asia/Seoul
+- Charset: utf8mb4, init.sql
 - Port: docker-compose.yaml
 - volume: docker-compose.yaml # 필수는 아닌데.
 - DBMS, User, Password: init.sql
