@@ -32,3 +32,6 @@ cd toy_docker_db_maria
 
 ## Feature
 - User define function uuidv7() support: init.sql
+
+---
+뭔가 잘 안된다고 생각되면. Docker의 cache에 해당하는 image, container, volume을 clear하고 해 보는 권을 권합니다.
