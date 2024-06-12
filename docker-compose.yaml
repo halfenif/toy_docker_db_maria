@@ -6,5 +6,9 @@ services:
     image: toy_docker_db_maria
     container_name: toy_docker_db_maria
     restart: always
+    volumes:
+      - ./data:/var/lib/mysql
     ports:
       - 3306:3306
+    #environment:
+    #  - MYSQL_ROOT_HOST=172.*.*.* 
